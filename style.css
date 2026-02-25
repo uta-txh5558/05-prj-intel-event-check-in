@@ -348,6 +348,61 @@ select {
   color: #475569;
 }
 
+.team-count {
+  font-size: 24px;
+  font-weight: 700;
+  color: #003c71;
+}
+
+.attendee-list-section {
+  margin-top: 25px;
+  text-align: left;
+}
+
+.attendee-list {
+  list-style: none;
+  margin-top: 10px;
+  padding: 0;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.attendee-list li {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 12px 14px;
+  font-size: 15px;
+  color: #334155;
+  background-color: #f8fafc;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.attendee-list li:last-child {
+  border-bottom: none;
+}
+
+.attendee-name {
+  font-weight: 600;
+}
+
+.attendee-team {
+  color: #64748b;
+}
+
+.empty-attendee {
+  justify-content: center;
+  color: #94a3b8;
+  font-style: italic;
+}
+
+.reset-actions {
+  margin-top: 14px;
+  display: flex;
+  justify-content: center;
+}
+
 /* Mobile responsive */
 @media (max-width: 768px) {
   .hero {
